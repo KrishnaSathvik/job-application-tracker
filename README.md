@@ -16,8 +16,6 @@ A simple yet powerful job application tracker built using HTML, Bootstrap, JavaS
 - Visual charts for quick insights (Chart.js)
 - Goal-setting and milestone modals
 - Fully offline & data persists using IndexedDB (Dexie.js)
-- Clean modern UI inspired by Vercel/Next.js Docs
-- Tailwind CSS-based styling (latest upgrade from Bootstrap)
 
 ---
 
