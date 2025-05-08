@@ -1,105 +1,91 @@
-# 📝 Job Application Tracker
+# 🧠 Job Application Tracker
 
-A simple yet powerful job application tracker built using HTML, Bootstrap, JavaScript, and IndexedDB (via Dexie.js). The app helps users organize and manage their job applications efficiently with status tracking, notes, filters, charts, and more — all within the browser, no login required.
+An advanced, offline-capable job application tracking tool built entirely with HTML, Bootstrap 5, JavaScript, and IndexedDB (via Dexie.js). It enables users to manage their job search, set goals, visualize progress, and attach resumes—all without any backend.
 
-🔗 [Live App](https://krishnasathvik.github.io/job-application-tracker)  
-📁 [GitHub Repository](https://github.com/KrishnaSathvik/job-application-tracker)
-
----
-
-## ✨ Features
-
-- Add, edit, and delete job applications
-- Track status: Applied, Interviewing, Offered, Rejected, etc.
-- Save additional info like resume link, contact person, deadline
-- Filter by application status
-- Visual charts for quick insights (Chart.js)
-- Goal-setting and milestone modals
-- Fully offline & data persists using IndexedDB (Dexie.js)
+🔗 [Live Demo](https://krishnasathvik.github.io/job-application-tracker)
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-- **Frontend:** HTML, Tailwind CSS (previously Bootstrap), JavaScript
-- **Database:** IndexedDB using [Dexie.js](https://dexie.org/)
-- **Visualization:** [Chart.js](https://www.chartjs.org/)
-- **UI/UX Add-ons:** Modals for goal setting, editing, recovery, milestones
+- 🎯 **Goal Tracking** – Set and track total, weekly, and monthly job application goals.
+- 📄 **Add Applications** – Include company, position, job type, salary, location, source, and URL.
+- 📎 **Attachments** – Upload and view resumes, cover letters, or any other files per application.
+- 📊 **Analytics Dashboard** – View status distribution, job type distribution, success rates, and average response times.
+- 🌙 **Theme Toggle** – Switch between light and dark mode dynamically.
+- 💾 **IndexedDB Storage** – Data is stored in-browser with Dexie.js; fully offline and persistent.
+- 🧾 **Import/Export** – Backup data to JSON or export your entire application table to PDF.
+- 🔍 **Search & Pagination** – Filter and paginate your job applications.
+- 🧠 **Smart Auto Recovery** – Recover lost data from backups or local storage.
+- 🎉 **Milestone Celebrations** – Confetti when reaching application milestones.
+- 📈 **Weekly Streak Counter** – Tracks consistent job application activity.
 
 ---
 
-## 🚀 Getting Started
+## 📁 Project Structure
 
-### 1. Clone the Repository
+```
+job-application-tracker/
+├── index.html               # All HTML, JS, and logic in one file
+├── favicon.ico
+└── README.md
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **Bootstrap 5**
+- **JavaScript (Vanilla)**
+- **Dexie.js** for IndexedDB
+- **Chart.js** for visualizations
+- **jsPDF** + **AutoTable** for PDF export
+- **Font Awesome** for icons
+
+---
+
+## 🧪 How to Run Locally
+
+1. **Clone the Repository**
 
 ```bash
 git clone https://github.com/KrishnaSathvik/job-application-tracker.git
 cd job-application-tracker
 ```
 
-### 2. Open in Browser
-
-No installation needed. Simply open the `index.html` file in your browser.
+2. **Open `index.html` in Your Browser**
 
 ```bash
-open index.html  # For macOS
-# or
-start index.html # For Windows
+open index.html  # macOS
+start index.html # Windows
 ```
 
----
-
-## 🧱 Project Structure
-
-```
-job-application-tracker/
-├── index.html
-├── css/
-│   └── tailwind.css
-├── js/
-│   ├── app.js              # Main logic for CRUD & filters
-│   ├── chart.js            # Chart rendering
-│   └── db.js               # Dexie.js DB config
-├── assets/
-│   └── icons, images...
-└── README.md
-```
+✅ No build process or dependencies required.
 
 ---
 
 ## 📈 Future Enhancements
 
-- Notification alerts for deadlines
-- Sync with Google Sheets or Firebase
-- Dark mode toggle
-- Progressive Web App (PWA) support
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-### Steps:
-
-1. Fork the repo
-2. Create a feature branch
-3. Commit your changes
-4. Push to your fork
-5. Open a pull request
+- Export to Excel/CSV
+- Sorting by column headers
+- Cloud sync with Firebase or Google Sheets
+- Browser notification reminders for follow-ups
 
 ---
 
 ## 📄 License
 
-[MIT License](LICENSE)
+MIT License
 
 ---
 
 ## 👤 Author
 
-**Krishna Sathvik**  
-📧 [Connect on LinkedIn](https://www.linkedin.com/in/krishnasathvik)  
-📸 [Instagram - TravelsWithKrishna](https://www.instagram.com/travelswithkrishna)
+**Krishna Sathvik**
+
+- [GitHub](https://github.com/KrishnaSathvik)
+- [LinkedIn](https://www.linkedin.com/in/krishnasathvik)
+- [Instagram](https://www.instagram.com/travelswithkrishna)
 
 ---
